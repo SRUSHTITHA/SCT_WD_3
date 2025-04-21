@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 200, 255, 0.4);
+  border: 2px solid rgba(0, 200, 255, 0.6);
+  backdrop-filter: blur(10px);
+  transition: 0.4s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 35px rgba(0, 200, 255, 0.7);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.timer {
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 12px;
+  background-color: rgba(0, 200, 255, 0.2);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 200, 255, 0.4);
+  transform: scale(1.08);
+}
+
+.small-btn {
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  background-color: rgba(255, 100, 100, 0.3);
+  border-radius: 8px;
+}
+
+.laps-section {
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.laps-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+#laps {
+  list-style: none;
+  padding-right: 5px;
+}
+
+#laps li {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+}
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROD0V9uS8KCwd0a82zd-f9SA_x6vpQ__ZOiw&s');
+    background-size: cover;
+}
